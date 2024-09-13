@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatRRG - Local y privado</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script type="module" src="./script.js"></script>
+</head>
+<body>
+    <main>
+    <ul>
+        <li class="bot-version" >
+            <button class="version-1" >Bot.AI-1.0</button>
+            <button class="version-2" >Bot.AI-2.0</button>
+            <h3>Elige una version para continuar</h3>
+            <h4>Bot.AI-2.0 es mas ligero, pero da resultados mas simples</h4>
+            <h4>Bot.AI-3-0 es mas pesado, pero da mejores resultados</h4>
+        </li>
+        <li class="loading hidden" >
+            <i></i>
+            <h4>Cargando...</h4>
+            <h5>Esto puede tardar un poco</h5>
+        </li>
+    </ul>
+    </main>
+    <form>
+        <input placeholder="Escribe tu mensaje aqui..." />
+        <button class="send-message" disabled>Enviar</button>  
+    </form>
+    <template id="message-template" >
+        <li class="message" >
+            <span></span>
+            <p></p>
+        </li>
+    </template>
+
+    <small>&nbsp;</small>
+</body>
+</html>
